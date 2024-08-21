@@ -23,21 +23,34 @@ This Bash script automates the process of performing security audits and applyin
    ```bash
    git clone https://github.com/yourusername/security-audit-script.git
    cd security-audit-script
+   
 2. **Make the script executable**:
+```bash
 chmod +x automate.sh
-3. **Run the script with the desired option**:
+
+4. **Run the script with the desired option**:
+ ```bash
 sudo ./automate.sh [option]
 
 
 **Available Options**
 -user_audit: Perform User and Group Audit
+
 -file_permissions: Perform File and Directory Permissions Audit
+
 -service_audit: Perform Service Audit
+
 -firewall: Check Firewall and Network Security
+
 -ip_checks: Perform IP and Network Configuration Checks
+
 -security_updates: Check for Security Updates and Patching
+
 -log_monitoring: Monitor Logs for Suspicious Entries
+
 -server_hardening: Apply Server Hardening Steps
+
 -all: Run all checks and hardening steps
+
 -help: Display the help message
 
