@@ -24,13 +24,15 @@ This Bash script automates the process of performing security audits and applyin
    git clone https://github.com/yourusername/security-audit-script.git
    cd security-audit-script
    
-2. **Make the script executable**:
+2. **Make the script executable**
 ```bash
-chmod +x automate.sh
+ chmod +x automate.sh
+```
 
-4. **Run the script with the desired option**:
+ 3. **Run the script with the desired option**:
  ```bash
 sudo ./automate.sh [option]
+```
 
 
 **Available Options**
